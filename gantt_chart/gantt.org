@@ -1,0 +1,180 @@
+#+PROPERTY: Effort_ALL 1d 2d 5d 10d 20d
+#+PROPERTY: allocate_ALL all
+#+COLUMNS: %70ITEM(Task) %Effort
+* TrailRider Project                                    :taskjuggler_project:
+:PROPERTIES:
+:start: 2019-09-06
+:end: 2019-11-29
+:END:
+** Research
+:PROPERTIES:
+:task_id: research
+:start: 2019-09-06
+:duration: 14d
+:allocate: all
+:END:
+** Gantt Chart
+:PROPERTIES:
+:task_id: gantt
+:start: 2019-09-10
+:duration: 1d
+:allocate: jasper
+:END:
+** Scope
+:PROPERTIES:
+:task_id: scope
+:start: 2019-09-09
+:duration: 1d
+:allocate: all
+:END:
+** Requirements
+:PROPERTIES:
+:task_id: reqs
+:depends: scope
+:duration: 1d
+:allocate: all
+:END:
+** Concept Generation
+:PROPERTIES:
+:task_id: conc_gen
+:depends: reqs
+:duration: 5d
+:allocate: all
+:END:
+** Winnowing
+:PROPERTIES:
+:task_id: winnow
+:depends: conc_gen
+:allocate: all
+:duration: 3d
+:END:
+** Ranking
+:PROPERTIES:
+:task_id: rank
+:depends: winnow
+:allocate: all
+:duration: 3d
+:END:
+** Scoring
+:PROPERTIES:
+:task_id: score
+:depends: rank
+:allocate: all
+:duration: 3d
+:END:
+** Design in Detail
+:PROPERTIES:
+:task_id: did
+:depends: score
+:allocate: all
+:duration: 30d
+:END:
+** Final Report
+:PROPERTIES:
+:task_id: report
+:allocate: all
+:end: 2019-11-16
+:duration: 30d
+:END:
+** Oral Presentation
+:PROPERTIES:
+:task_id: oral_pres
+:end: 2019-11-18
+:duration: 14d
+:END:
+** Milestones
+*** Weekly Reports
+**** Report 1
+:PROPERTIES:
+:task_id: rep1
+:start: 2019-09-11
+:END:
+**** Report 2
+:PROPERTIES:
+:task_id: rep2
+:start: 2019-09-18
+:END:
+**** Report 3
+:PROPERTIES:
+:task_id: rep3
+:start: 2019-09-25
+:END:
+**** Report 4
+:PROPERTIES:
+:task_id: rep4
+:start: 2019-10-02
+:END:
+**** Report 5
+:PROPERTIES:
+:task_id: rep5
+:start: 2019-10-09
+:END:
+**** Report 6
+:PROPERTIES:
+:task_id: rep6
+:start: 2019-10-16
+:END:
+**** Report 7
+:PROPERTIES:
+:task_id: rep7
+:start: 2019-10-23
+:END:
+**** Report 8
+:PROPERTIES:
+:task_id: rep8
+:start: 2019-10-30
+:END:
+**** Report 9
+:PROPERTIES:
+:task_id: rep9
+:start: 2019-11-06
+:END:
+**** Report 10
+:PROPERTIES:
+:task_id: rep10
+:start: 2019-11-13
+:END:
+*** Concept Selection Review
+:PROPERTIES:
+:task_id: csr
+:start: 2019-10-09
+:END:
+*** Final Report
+:PROPERTIES:
+:task_id: final_report_due
+:start: 2019-11-16
+:END:
+*** Oral Presentation
+:PROPERTIES:
+:task_id: oral_pres_due
+:start: 2019-11-18
+:END:
+* Resources                                            :taskjuggler_resource:
+** Group Members
+:PROPERTIES:
+:resource_id: all
+:END:
+*** Ricky Asfour
+:PROPERTIES:
+:resource_id: ricky
+:END:
+*** Jasper Chan
+:PROPERTIES:
+:resource_id: jasper
+:END:
+*** Jacky Chang
+:PROPERTIES:
+:resource_id: jacky
+:END:
+*** Nathan Hendricks
+:PROPERTIES:
+:resource_id: nathan
+:END:
+*** Shane Patterson
+:PROPERTIES:
+:resource_id: shane
+:END:
+*** Hamish Woods
+:PROPERTIES:
+:resource_id: hamish
+:END:

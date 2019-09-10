@@ -1,0 +1,3 @@
+[submodule "gantt_chart/report"]
+	path = gantt_chart/report
+	url = git@github.com:Gigahawk/mech328_gantt_report.git
