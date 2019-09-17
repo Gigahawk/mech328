@@ -20,42 +20,81 @@
 :duration: 1d
 :allocate: jasper
 :END:
-** Scope
+** Project Targets/Metrics
+*** Stakeholders/Requirements matrix
 :PROPERTIES:
-:task_id: scope
-:start: 2019-09-09
+:task_id: reqs
+:start: 2019-09-11
+:duration: 7d
+:allocate: all
+:END:
+*** Rank Requirements
+:PROPERTIES:
+:task_id: rankreqs
+:depends: reqs
 :duration: 1d
 :allocate: all
 :END:
-** Requirements
+*** Scope
 :PROPERTIES:
-:task_id: reqs
-:depends: scope
+:task_id: scope
+:start: 2019-09-16
 :duration: 1d
+:allocate: hamish
+:END:
+*** Value Proposition
+:PROPERTIES:
+:task_id: valueprop
+:start: 2019-09-16
+:duration: 1d
+:allocate: hamish
+:END:
+** Function Decomposition
+*** Top Level Function Decomposition
+:PROPERTIES:
+:task_id: topfuncdecomp
+:duration: 1d
+:start: 2019-09-18
+:allocate: all
+:END:
+*** Function Tree Diagram
+:PROPERTIES:
+:task_id: funcdecomp
+:duration: 4d
+:depends: topfuncdecomp
 :allocate: all
 :END:
 ** Concept Generation
+*** Concept Fragment Generation
 :PROPERTIES:
-:task_id: conc_gen
-:depends: reqs
+:task_id: concgenfrag
+:depends: funcdecomp
 :duration: 5d
 :allocate: all
 :END:
-** Winnowing
+*** Full Concept Generation
+:PROPERTIES:
+:task_id: concgen
+:depends: concgenfrag
+:duration: 5d
+:allocate: all
+:END:
+** Concept Selection
+*** Winnowing
 :PROPERTIES:
 :task_id: winnow
-:depends: conc_gen
+:depends: concgen
 :allocate: all
 :duration: 3d
 :END:
-** Ranking
+*** Ranking
 :PROPERTIES:
 :task_id: rank
 :depends: winnow
 :allocate: all
 :duration: 3d
 :END:
-** Scoring
+*** Scoring
 :PROPERTIES:
 :task_id: score
 :depends: rank
