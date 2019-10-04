@@ -1,0 +1,66 @@
+#+TITLE: MECH 328 Project Report Outline
+
+#+OPTIONS: toc:nil
+
+* Letter of Transmittal
+:PROPERTIES:
+:UNNUMBERED: t
+:END:
+
+* Acknowledgements
+- Writer: Hamish Woods
+- Time Alloted: 1hr
+* Outline
+- Writer: Jacky Chang
+- Time Alloted: 1hr
+* Introduction
+- Writer: Jasper Chan
+- Time Alloted: 2hr
+** Background Research
+** Project Scope
+* Initial Project Assesment
+- Writer: Nathan Hendricks
+- Time Alloted: 3hr
+** Needs
+** Requirements and Evaluation Criteria
+* Design Concepts
+- Writer: Ricky Asfour
+- Time Alloted: 3hr
+** Concept Generation
+** Concept Selection
+* Proposed Design
+** Sherpa Handle Redesign
+- Writer: Shane Patterson
+- Time Alloted: 2hr
+** Rider Hand Pedal
+- Writer: Hamish Woods
+- Time Alloted: 2hr
+** Wheel Redesign
+- Writer: Jacky Chang
+- Time Alloted: 2hr
+** Integration With Existing Frame
+- Writer: Jasper Chan
+- Time Alloted: 2hr
+* Engineering Analysis
+** Costs
+- Writer: Nathan Hendricks
+- Time Alloted: 1hr
+** Weight
+- Writer: Ricky Asfour
+- Time Alloted: 1hr
+** Durability
+- Writer: Shane Patterson
+- Time Alloted: 1hr
+** Stability
+- Writer: Hamish Woods
+- Time Alloted: 1hr
+* Limitations
+** Trail Compatibility
+- Writer: Shane Patterson
+- Time Alloted: 1hr
+** Minimum Rider Force
+- Writer: Jacky Chang
+- Time Alloted: 1hr
+* Conclusion and Recommendations
+- Writer: Jacky Chang
+- Time Alloted: 1hr
