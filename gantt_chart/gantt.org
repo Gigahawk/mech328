@@ -104,9 +104,118 @@
 ** Design in Detail
 :PROPERTIES:
 :task_id: did
-:depends: score
-:allocate: all
-:duration: 30d
+:start: 2019-10-16
+:END:
+*** Trailrider CAD
+:PROPERTIES:
+:task_id: base_cad
+:allocate: jasper
+:start: 2019-10-16
+:end: 2019-10-25
+:END:
+*** Harness
+**** Research
+:PROPERTIES:
+:task_id: harness_research
+:allocate: jacky
+:start: 2019-10-16
+:end: 2019-10-23
+:END:
+**** Requirements
+:PROPERTIES:
+:task_id: harness_requirements
+:allocate: harness_team
+:depends: harness_research
+:end: 2019-10-25
+:END:
+**** Stress Calculations
+:PROPERTIES:
+:task_id: harness_stress
+:allocate: harness_team
+:depends: harness_requirements
+:end: 2019-10-27
+:END:
+**** CAD/Integration
+:PROPERTIES:
+:task_id: harness_cad
+:allocate: harness_team
+:depends: harness_stress
+:end: 2019-11-03
+:END:
+*** Pedals
+**** Research
+:PROPERTIES:
+:task_id: pedal_research
+:allocate: pedal_team
+:start: 2019-10-16
+:end: 2019-10-25
+:END:
+**** Calculations/Speccing Parts
+:PROPERTIES:
+:task_id: pedal_calcs
+:allocate: pedal_team
+:depends: pedal_research
+:end: 2019-10-30
+:END:
+**** Finalize Design Specifications/Cost
+:PROPERTIES:
+:task_id: pedal_final
+:allocate: pedal_team
+:start: 2019-11-02
+:milestone:
+:END:
+**** CAD/FEA/Integration
+:PROPERTIES:
+:task_id: pedal_cad
+:allocate: pedal_team
+:depends: pedal_calcs
+:end: 2019-11-03
+:END:
+*** Wheels
+**** Preliminary Research
+:PROPERTIES:
+:task_id: wheel_research
+:END:
+***** Baseline Forces
+:PROPERTIES:
+:task_id: wheel_forces
+:allocate: hamish
+:start: 2019-10-16
+:end: 2019-10-23
+:END:
+***** Research
+:PROPERTIES:
+:allocate: wheel_team
+:start: 2019-10-16
+:end: 2019-10-23
+:END:
+***** Sketches
+:PROPERTIES:
+:allocate: wheel_team
+:start: 2019-10-20
+:end: 2019-10-23
+:END:
+**** Preliminary Model
+:PROPERTIES:
+:allocate: wheel_team
+:task_id: wheel_prelim_model
+:depends: wheel_research
+:end: 2019-10-30
+:END:
+**** Final CAD/Specification
+:PROPERTIES:
+:allocate: wheel_team
+:task_id: wheel_cad
+:depends: wheel_prelim_model
+:end: 2019-11-06
+:END:
+*** Handbrake
+**** Spec Handbrake
+:PROPERTIES:
+:task_id: spec_handbrake
+:allocate: wheel_team
+:start: 2019-10-30
+:end: 2019-11-06
 :END:
 ** Final Report
 :PROPERTIES:
@@ -127,93 +236,119 @@
 :PROPERTIES:
 :task_id: rep1
 :start: 2019-09-11
+:milestone:
 :END:
 **** Report 2
 :PROPERTIES:
 :task_id: rep2
 :start: 2019-09-18
+:milestone:
 :END:
 **** Report 3
 :PROPERTIES:
 :task_id: rep3
 :start: 2019-09-25
+:milestone:
 :END:
 **** Report 4
 :PROPERTIES:
 :task_id: rep4
 :start: 2019-10-02
+:milestone:
 :END:
 **** Report 5
 :PROPERTIES:
 :task_id: rep5
 :start: 2019-10-09
+:milestone:
 :END:
 **** Report 6
 :PROPERTIES:
 :task_id: rep6
 :start: 2019-10-16
+:milestone:
 :END:
 **** Report 7
 :PROPERTIES:
 :task_id: rep7
 :start: 2019-10-23
+:milestone:
 :END:
 **** Report 8
 :PROPERTIES:
 :task_id: rep8
 :start: 2019-10-30
+:milestone:
 :END:
 **** Report 9
 :PROPERTIES:
 :task_id: rep9
 :start: 2019-11-06
+:milestone:
 :END:
 **** Report 10
 :PROPERTIES:
 :task_id: rep10
 :start: 2019-11-13
+:milestone:
 :END:
 *** Concept Selection Review
 :PROPERTIES:
 :task_id: csr
 :start: 2019-10-09
+:milestone:
 :END:
 *** Final Report
 :PROPERTIES:
 :task_id: final_report_due
 :start: 2019-11-16
+:milestone:
 :END:
 *** Oral Presentation
 :PROPERTIES:
 :task_id: oral_pres_due
 :start: 2019-11-18
+:milestone:
 :END:
 * Resources                                            :taskjuggler_resource:
 ** Group Members
 :PROPERTIES:
 :resource_id: all
 :END:
-*** Ricky Asfour
+*** Harness Design
 :PROPERTIES:
-:resource_id: ricky
+:resource_id: harness_team
 :END:
-*** Jasper Chan
+**** Jasper Chan
 :PROPERTIES:
 :resource_id: jasper
 :END:
-*** Jacky Chang
+**** Jacky Chang
 :PROPERTIES:
 :resource_id: jacky
 :END:
-*** Nathan Hendricks
+*** Pedal Design
 :PROPERTIES:
-:resource_id: nathan
+:resource_id: pedal_team
 :END:
-*** Shane Patterson
+**** Ricky Asfour
+:PROPERTIES:
+:resource_id: ricky
+:END:
+**** Shane Patterson
 :PROPERTIES:
 :resource_id: shane
 :END:
-*** Hamish Woods
+*** Wheel Design
+:PROPERTIES:
+:resource_id: wheel_team
+:END:
+**** Nathan Hendricks
+:PROPERTIES:
+:resource_id: nathan
+:END:
+**** Hamish Woods
 :PROPERTIES:
 :resource_id: hamish
 :END:
+
