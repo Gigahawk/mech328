@@ -1,0 +1,9 @@
+﻿"handle_angle" = 15deg
+"handle_length"= 24in
+"handle_dia"= 1.5in
+"handle_thickness"= 0.25in
+"handle_inner_dia"= "handle_dia" - 2 * "handle_thickness"
+"collar_height"= 1.5in
+"collar_thickness"= 0.5
+"collar_inner_width"= 1in
+"bolt_dia"= 0.5in
