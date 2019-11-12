@@ -1,2 +1,16 @@
 **/~*
 export
+**/*.PNG
+**/*.png
+**/*.PDF
+**/*.pdf
+
+# FEA Artifacts
+**/*.SFA
+**/*.CWR
+**/*.FTC
+**/*.LOG
+**/*.dat
+**/PerformanceLog.txt
+
+
